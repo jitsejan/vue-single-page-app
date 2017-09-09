@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    image: jitsejan/vue-single-page-app
+    command: npm run dev
+    volumes:
+      - .:/code
+    ports:
+      - "8080:8080"
