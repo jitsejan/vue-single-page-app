@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>{{ msg }}</h1>
+    <h1>{{ pagetitle }}</h1>
     <h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
@@ -25,7 +25,7 @@ export default {
   name: 'home',
   data () {
     return {
-      msg: 'This is my first VueJS application'
+      pagetitle: 'This is my first VueJS application'
     }
   }
 }
