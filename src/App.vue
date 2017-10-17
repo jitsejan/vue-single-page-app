@@ -1,5 +1,5 @@
 <template>
-  <div id="application" data-spy="scroll" data-target="navigation">
+  <div id="application">
     <app-top-bar></app-top-bar> 
     <app-header></app-header> 
 

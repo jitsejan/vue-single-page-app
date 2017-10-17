@@ -115,9 +115,6 @@
             event.preventDefault();
         });
     }
-    function initScrollspy() {
-      $("#navigation").scrollspy({ offset: 70 });
-    }
     function initContactForm() {
         $('#contact-form').submit(function() {
 
@@ -160,7 +157,6 @@
         initStickyMenu();
         initMagnificPopup();
         initSmoothLink();
-        initScrollspy();
         initContactForm();
     }
 
