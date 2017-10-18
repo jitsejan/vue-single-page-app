@@ -21,29 +21,29 @@
                     <!-- End mobile menu toggle-->
                 </div>
             </div>
-            <div id="navigation">
+            <div id="navigation" class="navbar">
                 <!-- Navigation Menu-->
-                <ul class="navigation-menu">
-                    <li class="has-submenu active">
-                        <a href="#home">Home</a>
+                <ul class="nav nav-pills ml-auto" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" v-scroll-to="'#home'">Home</a>
                     </li>
-                    <li class="has-submenu">
-                        <a href="#services">Services</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" v-scroll-to='"#services"'>Services</a>
                     </li>
-                    <li class="has-submenu">
-                        <a href="#work">Work</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" v-scroll-to='"#work"'>Work</a>
                     </li>
-                    <li class="has-submenu">
-                        <a href="#pricing">Pricing</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" v-scroll-to='"#pricing"'>Pricing</a>
                     </li>
-                    <li class="has-submenu">
-                        <a href="#client">Client</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" v-scroll-to='"#client"'>Client</a>
                     </li>
-                    <li class="has-submenu">
-                        <a href="#about">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" v-scroll-to='"#about"'>About</a>
                     </li>
-                    <li class="has-submenu">
-                        <a href="#contact">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" v-scroll-to='"#contact"'>Contact</a>
                     </li>
                 </ul><!-- End navigation menu-->
             </div>
@@ -63,4 +63,12 @@ export default {
 </script>
 
 <style>
+.nav-pills .nav-link{
+    color: black;
+}
+.nav-pills .nav-link.active, .show>.nav-pills .nav-link{
+    background-color: transparent;
+    color: #EE8293;
+}
+
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div id="application">
+  <div id="application" data-spy="scroll" data-target="#navigation">
     <app-top-bar></app-top-bar> 
     <app-header></app-header> 
 
@@ -461,6 +461,8 @@
       appFooter: Footer
     }
   }
+  $('body').scrollspy({ target: '#navigation' })
+
 </script>
 
 <style>
