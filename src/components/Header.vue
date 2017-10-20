@@ -21,29 +21,29 @@
                     <!-- End mobile menu toggle-->
                 </div>
             </div>
-            <div id="navigation" class="navbar">
+            <div id="navbar-example" class="navbar">
                 <!-- Navigation Menu-->
                 <ul class="nav nav-pills ml-auto" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" v-scroll-to="'#home'">Home</a>
+                        <a class="nav-link active" href="#home" v-scroll-to="'#home'">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" v-scroll-to='"#services"'>Services</a>
+                        <a class="nav-link" href="#services" v-scroll-to='"#services"'>Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" v-scroll-to='"#work"'>Work</a>
+                        <a class="nav-link" href="#work" v-scroll-to='"#work"'>Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" v-scroll-to='"#pricing"'>Pricing</a>
+                        <a class="nav-link" href="#pricing" v-scroll-to='"#pricing"'>Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" v-scroll-to='"#client"'>Client</a>
+                        <a class="nav-link" href="#client" v-scroll-to='"#client"'>Client</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" v-scroll-to='"#about"'>About</a>
+                        <a class="nav-link" href="#about" v-scroll-to='"#about"'>About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" v-scroll-to='"#contact"'>Contact</a>
+                        <a class="nav-link" href="#contact" v-scroll-to='"#contact"'>Contact</a>
                     </li>
                 </ul><!-- End navigation menu-->
             </div>
@@ -70,5 +70,4 @@ export default {
     background-color: transparent;
     color: #EE8293;
 }
-
 </style>
