@@ -21,7 +21,7 @@
                     <!-- End mobile menu toggle-->
                 </div>
             </div>
-            <div id="navbar-example" class="navbar">
+            <div id="navigation" class="navbar">
                 <!-- Navigation Menu-->
                 <ul class="nav nav-pills ml-auto" role="tablist">
                     <li class="nav-item">
