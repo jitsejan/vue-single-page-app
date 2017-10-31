@@ -168,7 +168,7 @@ a {
     background: #f6f6f6;
     font-size: 13px;
     color: #2d2e2e !important;
-    position: absolute;
+    position: relative;
     width: 100%;
     z-index: 99;
 }

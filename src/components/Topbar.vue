@@ -1,5 +1,5 @@
  <template>
-    <div class="tagline hidden-md"> 
+    <div class="tagline d-none d-md-block"> 
         <div class="container"> 
             <div class="float-left"> 
                 <div class="phone">
@@ -32,4 +32,8 @@ export default {
 </script>
 
 <style>
+.tagline{
+    background-color: white;
+    height: 40px;
+}
 </style>

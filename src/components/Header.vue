@@ -1,29 +1,16 @@
 <template>
-    <header id="topnav" class="defaultscroll fixed-top navbar-sticky">
-        <div class="container">
-            <!-- Logo container-->
-            <div>
-                <a href="index.html" class="logo">
-                    Smart
-                </a>
-            </div>
-            <!-- End Logo container-->
-            <div class="menu-extras">
-                <div class="menu-item">
-                    <!-- Mobile menu toggle-->
-                    <a class="navbar-toggle">
-                        <div class="lines">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </a>
-                    <!-- End mobile menu toggle-->
-                </div>
-            </div>
-            <div id="navigation" class="navbar">
-                <!-- Navigation Menu-->
-                <ul class="nav nav-pills ml-auto" role="tablist">
+    <nav id="topnav" class="default scroll navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-sticky">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Smart</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto" role="tablist ">
+                    <li class="nav-item active">
+                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#home" v-scroll-to="'#home'">Home</a>
                     </li>
@@ -45,10 +32,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact" v-scroll-to='"#contact"'>Contact</a>
                     </li>
-                </ul><!-- End navigation menu-->
+
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
 </template>
 
 <script>
@@ -63,6 +51,9 @@ export default {
 </script>
 
 <style>
+#topnav{
+    width: 100%;
+}
 .nav-pills .nav-link{
     color: black;
 }
